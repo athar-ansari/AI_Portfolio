@@ -1,0 +1,33 @@
+{
+  "name": "Alex Rivera | Senior Product Engineer",
+  "description": "Architecting high-performance digital systems for global startups. Specialized in MERN, Next.js, and Scalable Architectures.",
+  "skills": [
+    "React",
+    "Next.js",
+    "Node.js",
+    "TypeScript",
+    "GraphQL",
+    "AWS"
+  ],
+  "experience": [
+    {
+      "role": "Senior Product Engineer",
+      "company": "Tech Startup Inc.",
+      "duration": "2021 - Present",
+      "description": "Lead the development of scalable web applications using Next.js and Node.js."
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Digital Agency LLC",
+      "duration": "2018 - 2021",
+      "description": "Developed and maintained various client projects using the MERN stack."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S. in Computer Science",
+      "institution": "University of Technology",
+      "year": "2018"
+    }
+  ]
+}
