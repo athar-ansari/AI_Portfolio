@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import ThreeBackground from '@/components/ThreeBackground';
 import Navbar from '@/components/Navbar';

@@ -98,6 +98,15 @@ export default function Hero() {
                   Start a Conversation
                 </a>
               </Magnetic>
+              {/* <Magnetic>
+                <a 
+                  href="/resume.pdf"
+                  target="_blank"
+                  className="group flex items-center gap-3 border border-emerald-500/30 px-8 py-4 rounded-full font-bold text-emerald-500 hover:bg-emerald-500/10 transition-all duration-500"
+                >
+                  Download CV
+                </a>
+              </Magnetic> */}
             </div>
           </div>
         </div>
