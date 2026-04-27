@@ -14,8 +14,13 @@ function StarField(props: any) {
 
   useFrame((state, delta) => {
     if (ref.current) {
+      // Base rotation
       ref.current.rotation.x -= delta / 10;
       ref.current.rotation.y -= delta / 15;
+      
+      // Interactive parallax effect based on mouse pointer
+      ref.current.rotation.x += (state.pointer.y * 0.1 - ref.current.rotation.x) * 0.05;
+      ref.current.rotation.y += (state.pointer.x * 0.1 - ref.current.rotation.y) * 0.05;
     }
   });
 
